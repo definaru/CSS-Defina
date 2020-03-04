@@ -9,6 +9,51 @@ E-mail: info@defina.ru
 */
 .brblock {display:block;width:100%;clear:both;padding:5px 0;}
 .cp {cursor:pointer;}
+
+::-webkit-input-placeholder {
+    font-family: sans-serif;
+}
+:-moz-placeholder {
+    font-family: sans-serif;
+}
+::-moz-placeholder {
+    font-family: sans-serif;
+}
+:-ms-input-placeholder {
+    font-family: sans-serif;
+}
+::-ms-input-placeholder {
+    font-family: sans-serif;
+}
+:placeholder {
+    font-family: sans-serif;
+}
+
+/* -------------- Scrolling --------------- */
+
+.scroll::-webkit-scrollbar{    width:5px;}
+.scroll::-webkit-scrollbar-thumb{    
+    border-width:1px 1px 1px 2px;    
+    border-color: #777;    
+    background-color: #999;    
+    margin-left: -5px;
+}
+.scroll::-webkit-scrollbar-thumb:hover{    
+    border-width: 1px 1px 1px 2px;    
+    border-color: #555;    
+    background-color: #777;
+}
+.scroll::-webkit-scrollbar-track{    
+    border-width:0;
+}
+.scroll::-webkit-scrollbar-track:hover{    
+    border-left: solid 1px #aaa;    
+    background-color: #eee;
+}
+
+/* ----------------- end scroll --------------- */
+
+
 @media screen and (max-width:767px) {
     .xs-left {text-align: left;}
     .xs-right {text-align: right;}
@@ -25,6 +70,9 @@ E-mail: info@defina.ru
     .lead {
         font-size: 14px;
         font-weight: 300;
+    }
+    .hidden-xs {
+        display: none !important;
     }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -44,6 +92,9 @@ E-mail: info@defina.ru
         font-size: 16px;
         font-weight: 300;
     }    
+    .hidden-sm {
+        display: none !important;
+    }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
     .md-left {text-align: left;}
@@ -62,6 +113,9 @@ E-mail: info@defina.ru
         font-size: 18px;
         font-weight: 300;
     }    
+    .hidden-md {
+        display: none !important;
+    }
 }
 @media screen and (min-width: 1200px) {
     .lg-left{text-align: left;}
@@ -79,5 +133,8 @@ E-mail: info@defina.ru
     .lead {
         font-size: 22px;
         font-weight: 400;
-    }    
+    }   
+    .hidden-lg {
+        display: none !important;
+    }
 }
