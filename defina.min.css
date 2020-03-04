@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 /*
-Author: Inc.Defina
+Author: Inc. Defina
 LICENSE: GNU General Public License v3.0
 URL LICENSE: https://github.com/DefinaCorporation/Defina/blob/master/LICENSE
 WebSite: https://defina.ru
 E-mail: info@defina.ru
 */
-
+.brblock {display:block;width:100%;clear:both;padding:5px 0;}
+.cp {cursor:pointer;}
 @media screen and (max-width:767px) {
     .xs-left {text-align: left;}
     .xs-right {text-align: right;}
